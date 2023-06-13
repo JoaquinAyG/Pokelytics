@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pokemon_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="@dimen/default_padding"
+        android:background="@drawable/pokemon_white_square">
+
+        <LinearLayout
+            android:id="@+id/name_id_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#001"
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorOnItem"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berry"
+                android:textAllCaps="true"
+                android:textSize="17sp"
+                android:textColor="@color/colorOnItem"
+                android:layout_marginStart="25dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/power"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Damage"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorOnItem"
+            app:layout_constraintEnd_toStartOf="@id/image"
+            app:layout_constraintTop_toTopOf="@+id/name_id_container"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/list_item_image_height"
+            android:layout_height="@dimen/list_item_image_height"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bulbasaur"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/app_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

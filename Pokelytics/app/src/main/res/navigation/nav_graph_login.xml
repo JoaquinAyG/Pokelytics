@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="study.project.pokelytics.fragments.login.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/welcomeFragmentToLoginSelectionFragment"
+            app:destination="@id/loginSelectionFragment"/>
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/loginSelectionFragment"
+        android:name="study.project.pokelytics.fragments.login.LoginSelectionFragment"
+        android:label="LoginSelection"
+        tools:layout="@layout/fragment_login_selection">
+        <action
+            android:id="@+id/loginSelectionFragmentToSignUpFragment"
+            app:destination="@id/signUpFragment"/>
+        <action
+            android:id="@+id/loginSelectionFragmentToLogInFragment"
+            app:destination="@id/logInFragment"/>
+        <action
+            android:id="@+id/loginSelectionFragmentToWelcomeFragment"
+            app:destination="@id/welcomeFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="study.project.pokelytics.fragments.login.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/signUpFragmentToLoginSelectionFragment"
+            app:destination="@id/loginSelectionFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="study.project.pokelytics.fragments.login.LogInFragment"
+        android:label="LogInFragment"
+        tools:layout="@layout/fragment_log_in">
+        <action
+            android:id="@+id/logInFragmentToLoginSelectionFragment"
+            app:destination="@id/loginSelectionFragment"/>
+        <action
+            android:id="@+id/logInFragmentToResetPasswordFragment"
+            app:destination="@id/resetPasswordFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="study.project.pokelytics.fragments.login.ResetPasswordFragment"
+        android:label="ResetPasswordFragment"
+        tools:layout="@layout/fragment_reset_password">
+        <action
+            android:id="@+id/resetPasswordFragmentToLogInFragment"
+            app:destination="@id/logInFragment"/>
+
+    </fragment>
+
+
+</navigation>

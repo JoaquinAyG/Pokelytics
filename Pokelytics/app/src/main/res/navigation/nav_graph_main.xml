@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/pokemonList"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_graph_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/pokemonList"
+        android:name="study.project.pokelytics.fragments.main.PokemonListFragment"
+        tools:layout="@layout/fragment_pokemon_list"/>
+
+    <fragment
+        android:id="@+id/berryList"
+        android:name="study.project.pokelytics.fragments.main.BerryListFragment"
+        tools:layout="@layout/fragment_pokemon_list"/>
+
+    <fragment
+        android:id="@+id/moveList"
+        android:name="study.project.pokelytics.fragments.main.MovesListFragment"
+        tools:layout="@layout/fragment_pokemon_list"/>
+
+    <fragment
+        android:id="@+id/locationList"
+        android:name="study.project.pokelytics.fragments.main.LocationsListFragment"
+        tools:layout="@layout/fragment_locations_list">
+        <argument
+            android:name="locationList"
+            app:argType="study.project.pokelytics.models.LocationList"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/regionList"
+        android:name="study.project.pokelytics.fragments.main.RegionListFragment"
+        tools:layout="@layout/fragment_regions_list">
+        <action
+            android:id="@+id/action_regionList_to_locationList"
+            app:destination="@id/locationList">
+            <argument
+                android:name="locationList"
+                app:argType="study.project.pokelytics.models.LocationList"
+                />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/userProfile"
+        android:name="study.project.pokelytics.fragments.main.ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/favList"
+        android:name="study.project.pokelytics.fragments.main.FavListFragment"
+        tools:layout="@layout/fragment_pokemon_list"/>
+
+    <fragment
+        android:id="@+id/teamList"
+        android:name="study.project.pokelytics.fragments.main.TeamListFragment"
+        tools:layout="@layout/fragment_pokemon_list"/>
+
+</navigation>

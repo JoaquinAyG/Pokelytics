@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/infoPokemon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_graph_info"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/infoPokemon"
+        android:name="study.project.pokelytics.fragments.info.InfoPokemonFragment"
+        tools:layout="@layout/fragment_info_pokemon">
+        <action
+            android:id="@+id/action_to_pokemonMoves"
+            app:destination="@id/pokemonMoves">
+            <argument
+                android:name="pokemon"
+                app:argType="study.project.pokelytics.api.model.Pokemon" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemonMoves"
+        android:name="study.project.pokelytics.fragments.info.PokemonMovesListFragment"
+        tools:layout="@layout/fragment_pokemon_moves">
+        <argument
+            android:name="pokemon"
+            app:argType="study.project.pokelytics.api.model.Pokemon"
+            />
+    </fragment>
+</navigation>

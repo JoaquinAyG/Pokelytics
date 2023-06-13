@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pokemon_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/table_item_height"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/guideline_10"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            app:layout_constraintStart_toStartOf="@id/guideline_10"
+            app:layout_constraintEnd_toEndOf="@id/guideline_45"/>
+
+        <TextView
+            android:id="@+id/areas"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toStartOf="@id/guideline_45"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/guideline_10"
+            app:layout_constraintGuide_percent="0.15"
+            android:orientation="vertical"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/guideline_45"
+            app:layout_constraintGuide_percent="0.55"
+            android:orientation="vertical"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

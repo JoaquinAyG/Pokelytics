@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/table_item_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:text="@string/id_title"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_10"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:text="@string/name_title"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="@id/guideline_10"
+        app:layout_constraintEnd_toEndOf="@id/guideline_45"/>
+
+    <TextView
+        android:id="@+id/areas"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:text="@string/area_title"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="@id/guideline_45"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/guideline_10"
+        app:layout_constraintGuide_percent="0.15"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/guideline_45"
+        app:layout_constraintGuide_percent="0.55"
+        android:orientation="vertical"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

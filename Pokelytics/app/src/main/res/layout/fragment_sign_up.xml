@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.login.SignUpFragment"
+        android:background="@color/colorPrimary"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/tvsSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carterone_regular"
+            android:text="@string/signup"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toTopOf="@id/topguide"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etname"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/tvsSignUp"
+            app:startIconDrawable="@drawable/ic_user"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:theme="@style/lineET"
+                android:textColor="@color/white"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="2"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etemail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/etname"
+            app:startIconDrawable="@drawable/ic_mail"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:theme="@style/lineET"
+                android:textColor="@color/white"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="2"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etpassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/etemail"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/pass"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:theme="@style/lineET" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etrepassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/etpassword"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/repassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/repass"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:theme="@style/lineET" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            style="@style/buttonOutlinedBlue"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="@string/signup"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/etrepassword" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/buttonOutlinedWhite"
+            android:text="@string/cancel"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/btnSignUp" />
+
+        <TextView
+            android:id="@+id/tvother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/other"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/btnCancel">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btnGoogle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_google"
+            app:layout_constraintEnd_toStartOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/tvother"
+            android:paddingBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/tvsTermsPolicy"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/termsPolicy"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@id/btnGoogle"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/leftguide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.10"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/rightguide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9"/>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/topguide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".09"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+

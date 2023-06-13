@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.main.ProfileFragment"
+        android:background="@color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_user"/>
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userName"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/profileImage"
+            app:layout_constraintTop_toTopOf="@id/profileImage"
+            app:layout_constraintBottom_toBottomOf="@id/profileEmail"/>
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Email"
+            android:textColor="@color/colorItemDark"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/profileName"
+            app:layout_constraintTop_toBottomOf="@+id/profileName"/>
+
+        <ImageView
+            android:id="@+id/account_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/ic_profile_user"
+            app:layout_constraintStart_toStartOf="@id/profileImage"
+            app:layout_constraintTop_toBottomOf="@+id/profileImage"/>
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/account_image"
+            app:layout_constraintTop_toTopOf="@id/account_image"
+            app:layout_constraintBottom_toBottomOf="@id/account_image"/>
+
+        <TextView
+            android:id="@+id/info_account"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/infoDelete"
+            android:textColor="@color/light_grey"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/account"
+            app:layout_constraintTop_toBottomOf="@+id/account"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"/>
+        <Button
+        android:id="@+id/deleteAccount"
+        style="@style/buttonOutlinedRedDeleteAccount"
+        android:text="@string/delete"
+        android:drawableLeft="@drawable/ic_trash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rightguide"
+        app:layout_constraintTop_toBottomOf="@+id/info_account"/>
+
+        <!--<Button
+            android:id="@+id/deleteAccount"
+            style="@style/buttonOutlinedRedDeleteAccount"
+            android:text="@string/delete"
+            android:drawableLeft="@drawable/ic_trash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/logOut"
+            app:layout_constraintTop_toBottomOf="@+id/info_account" />
+
+        <Button
+            android:id="@+id/logOut"
+            style="@style/buttonOutlinedBlueLogOut"
+            android:text="@string/logOut"
+            android:drawableLeft="@drawable/ic_exit"
+            app:layout_constraintStart_toEndOf="@+id/deleteAccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info_account"/>-->
+
+        <ImageView
+            android:id="@+id/info_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_info_policy"
+            app:layout_constraintStart_toStartOf="@id/leftguide"
+            app:layout_constraintTop_toBottomOf="@+id/deleteAccount"/>
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/info_image"
+            app:layout_constraintTop_toTopOf="@id/info_image"
+            app:layout_constraintBottom_toBottomOf="@id/info_image"/>
+
+        <TextView
+            android:id="@+id/privacy_policy"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_privacy_policy"
+            android:textColor="@color/light_grey"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/info"
+            app:layout_constraintTop_toBottomOf="@+id/info"
+            app:layout_constraintEnd_toEndOf="@id/rightguide"/>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/rightguide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9"/>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/leftguide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

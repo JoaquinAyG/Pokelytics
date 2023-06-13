@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Pokelytics</string>
+    <string name="welcome">Welcome</string>
+    <string name="consult">Pokelytics is an app to consult pokemons</string>
+    <string name="letsStart">Let\'s start!</string>
+    <string name="ready">You\'re all set!</string>
+    <string name="inicioOpcional">Start checking pokemons now</string>
+    <string name="txtIniciarSesion">Log in to Pokelytics</string>
+    <string name="txtGetStarted">LETS GET STARTED</string>
+    <string name="btnSignUp">SIGN UP </string>
+    <string name="btnLogIn">LOG IN</string>
+    <string name="resetPass">RESET PASSWORD</string>
+    <string name="cancel">Cancel</string>
+    <string name="other">or sign up with</string>
+    <string name="other2">or log in with</string>
+    <string name="or">or </string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="pass">Password</string>
+    <string name="repass">Repeat password</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="barOpt1">info</string>
+    <string name="barOpt2">attacks</string>
+    <string name="barOpt3">more</string>
+    <string name="abilities">Abilities</string>
+    <string name="emailRequired">Email is required</string>
+    <string name="passRequired">Password is required</string>
+    <string name="repassRequired">Repeat password is required</string>
+    <string name="emailValid">Email is not valid</string>
+    <string name="backAgain">Please click BACK again to exit</string>
+    <string name="emailOrPassWrong">Please provide valid credentials</string>
+    <string name="passNeeds">Password needs: Capital letters, small letters, numbers and must be longer than 6 characters</string>
+    <string name="passSame">Passwords must be the same</string>
+    <string name="emailExists">This email alredy exists</string>
+    <string name="startWithoutLogin">Or start without login</string>
+    <string name="checkMail">Check your email to reset your password</string>
+    <string name="verifyEmail">Please verify your email</string>
+    <string name="accountNotExists">The account does not exists. Please register</string>
+    <string name="profile">Profile</string>
+    <string name="logOut">Log out</string>
+    <string name="account">Account</string>
+    <string name="infoDelete">Your Pokelytics account is completely free and saves your favorites list. If you delete your account, you\'ll lose your saved data and won\'t be able to restore it.</string>
+    <string name="delete">Delete</string>
+    <string name="deleteaccount">Delete account</string>
+    <string name="deleteAccountQuestion">Are you sure you want to delete the account?</string>
+    <string name="deleteAccountSuccesful">The account has been deleted</string>
+    <string name="accept">Accept</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="txt_privacy_policy">Click here to see our privacy policy</string>
+    <string name="userName">Name</string>
+    <string name="welcomeUser">Welcome trainer</string>
+    <string name="termsPolicy">By registering you indicate that you agree with our terms and conditions of use and our Cookies policy.</string>
+    <string name="statistics">Statistics</string>
+    <string name="vulnerable">Vulnerable at</string>
+    <string name="loginTitle">Login</string>
+    <string name="loginQuestion">Please login to add pokemon to favourites or team</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="policy_es">POLÍTICA DE PRIVACIDAD POKELITYCS \n\n
+Fecha última actualización:
+/
+/
+De conformidad con el Reglamento (UE) 2016/679, del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos
+datos (Reglamento General de Protección de Datos - RGPD), Pokelitycs, informa a los usuarios de la aplicación Pokelitycs (en adelante, la Aplicación), acerca del tratamiento de los datos personales, que ellos
+voluntariamente hayan facilitado durante el proceso de registro, acceso y utilización del servicio.\n\n
+1. FINALIDAD DEL TRATAMIENTO DE DATOS.\n\n
+Para proceder al registro, acceso y posterior uso de la Aplicación, el Usuario deberá facilitar -de forma voluntaria-, datos de carácter personal (esencialmente, identificativos y de contacto), los cuales serán incorporados a soportes automatizados titularidad de Pokelitycs La recogida, almacenamiento, modificación, estructuración y en su caso, eliminación, de los datos proporcionados por los Usuarios, constituirán operaciones de tratamiento llevadas a cabo por el Responsable, con la finalidad de garantizar el correcto funcionamiento de la Aplicación, mantener la relación de prestación de servicios y/o comercial con el Usuario, y
+para la gestión, administración, información, prestación y mejora del servicio.
+Los datos personales facilitados por el Usuario -especialmente, el correo electrónico o e-mail- podrán emplearse también para remitir boletines (newsletters), así como comunicaciones comerciales de promociones y/o publicidad de la Aplicación, siempre y cuando, el Usuario haya prestado previamente su consentimiento expreso para la recepción de estas comunicaciones vía electrónica.\n\n
+2. LEGITIMACIÓN.\n\n
+El tratamiento de los datos del Usuario, se realiza con las siguientes bases jurídicas que legitiman el mismo:
+• La solicitud de información y/o la contratación de los servicios de la Aplicación, cuyos términos y condiciones se pondrán a disposición del Usuario en todo caso, con carácter previo, para su expresa aceptación.
+• El consentimiento libre, específico, informado e inequívoco del Usuario, poniendo a su disposición la presente política de privacidad, que deberá aceptar mediante una declaración o una clara acción afirmativa, como el marcado de una casilla dispuesta al efecto.
+En caso de que el Usuario no facilite a Pokelitycs sus datos, o lo haga de forma errónea o incompleta, no será posible proceder al uso de la Aplicación.\n\n
+3. CONSERVACIÓN DE LOS DATOS PERSONALES.\n\n
+Los datos personales proporcionados por el Usuario, se conservarán en los sistemas y bases de datos del Responsable del Tratamiento, mientras aquél continúe haciendo uso de la Aplicación, y siempre que no solicite su supresión.
+Con el objetivo de depurar las posibles responsabilidades derivadas del tratamiento, los datos se conservarán por un período mínimo de cinco años.\n\n
+4. DESTINATARIOS.\n\n
+Los datos no se comunicarán a ningún tercero ajeno a Pokelitycs, salvo obligación legal o en cualquier caso, previa solicitud del consentimiento del Usuario.
+De otra parte, Pokelitycs podrá dar acceso o transmitir los datos personales facilitados por el Usuario, a terceros proveedores de servicios, con los que haya suscrito acuerdos de encargo de tratamiento de datos, y que únicamente accedan a dicha información para prestar un servicio en favor y por cuenta del Responsable.\n\n
+5. RETENCIÓN DE DATOS.\n\n
+Pokelitycs, informa al Usuario de que, como prestador de servicio de alojamiento de datos y en virtud de lo establecido en la Ley 34/2002 de 11 de julio de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI), retiene por un período máximo de 12 meses la información imprescindible para identificar el origen de los datos alojados y el momento en que se inició la prestación del servicio.
+La retención de estos datos no afecta al secreto de las comunicaciones y sólo podrán ser  utilizados en el marco de una investigación criminal o para la salvaguardia de la seguridad pública, poniéndose a disposición de los jueces y/o tribunales o del Ministerio que así los requiera.
+La comunicación de datos a las Fuerzas y Cuerpos de Seguridad del Estado, se hará en virtud de lo dispuesto por la normativa sobre protección de datos personales, y bajo el máximo respeto a la misma.\n\n
+6. PROTECCIÓN DE LA INFORMACIÓN ALOJADA.\n\n
+El Responsable del Tratamiento, adopta las medidas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos conforme a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de los mismos.
+Si bien el Responsable, realiza copias de seguridad de los contenidos alojados en sus servidores, sin embargo no se responsabiliza de la pérdida o el borrado accidental de los datos por parte de los Usuarios. De igual manera, no garantiza la reposición total de los datos borrados por los Usuarios, ya que los citados datos podrían haber sido suprimidos y/o
+modificados durante el periodo de tiempo transcurrido desde la última copia de seguridad.\n\n
+Los servicios facilitados o prestados a través de la Aplicación, excepto los servicios específicos de backup, no incluyen la reposición de los contenidos conservados en las copias de seguridad realizadas por el Responsable del Tratamiento, cuando esta pérdida sea imputable al usuario; en este caso, se determinará una tarifa acorde a la complejidad y volumen de la recuperación, siempre previa aceptación del usuario. La reposición de datos borrados sólo está incluida en el precio del servicio cuando la pérdida del contenido sea debida a causas atribuibles al Responsable.\n\n
+7. EJERCICIO DE DERECHOS.\n\n
+Pokelitycs, informa al Usuario de que le asisten los derechos de acceso, rectificación, limitación, supresión, oposición y portabilidad, los cuales podrá ejercitar mediante petición dirigida al correo electrónico: pokelytics.project@gmail.com o bien pokelyticsapp@gmail.com.
+Asimismo, el Usuario tiene derecho a revocar el consentimiento inicialmente prestado, y a interponer reclamaciones de derechos frente a la Agencia Española de Protección de Datos (AEPD).\n\n
+8. COMUNICACIONES COMERCIALES POR VÍA ELECTRÓNICA.\n\n
+En aplicación de la LSSI (Ley de Servicios de la Sociedad de la Información), Pokelitycs, no enviará comunicaciones publicitarias o promocionales por correo electrónico u otro medio de comunicación electrónica equivalente que previamente no hubieran sido solicitadas o expresamente autorizadas por los destinatarios de las mismas.
+En el caso de usuarios con los que exista una relación contractual, jurídica o de servicios previa, el Responsable del Tratamiento, sí está autorizado al envío de comunicaciones comerciales referentes a productos o servicios del Responsable que sean similares a los que inicialmente fueron objeto de contratación con el cliente.
+En caso de que el Usuario quiera darse de baja a la hora de recibir las citadas comunicaciones, podrá hacerlo remitiendo su voluntad por e-mail al correo electrónico: pokelytics.project@gmail.com.
+</string>
+    <string name="policy_eng">	POKELYTICS PRIVACY POLICY \n\n
+
+Last update: \n
+/ \n
+/ \n
+In accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation - GDPR), Pokelitycs informs users of the Pokelitycs application (hereinafter, the Application) about the processing of personal data that they voluntarily provide during the registration, access, and use of the service.\n\n
+1.	PURPOSE OF DATA PROCESSING.\n\n
+To register, access, and use the Application, the User must provide personal data (essentially, identification and contact data) on a voluntary basis, which will be incorporated into automated media owned by Pokelitycs. The collection, storage, modification, structuring, and, where appropriate, deletion of data provided by Users will constitute processing operations carried out by the Data Controller, for the purpose of ensuring the proper functioning of the Application, maintaining the service provision and/or commercial relationship with the User, and for the management, administration, information, provision, and improvement of the service.
+The personal data provided by the User, especially the email address, may also be used to send newsletters and commercial communications about promotions and/or advertising of the Application, provided that the User has previously given express consent to receive these communications electronically.\n\n
+2.	LEGITIMATION.\n\n
+The processing of User data is carried out with the following legal bases that legitimize it: • The request for information and/or the contracting of the services of the Application, whose terms and conditions will be made available to the User in any case, prior to their express acceptance. • The free, specific, informed, and unambiguous consent of the User, making available to him/her this privacy policy, which he/she must accept through a declaration or a clear affirmative action, such as checking a box provided for this purpose. If the User does not provide Pokelitycs with his/her data, or does so incorrectly or incompletely, it will not be possible to use the Application.\n\n
+3.	RETENTION OF PERSONAL DATA.\n\n
+The personal data provided by the User will be kept in the systems and databases of the Data Controller for as long as the User continues to use the Application, and as long as he/she does not request its deletion. In order to purge possible responsibilities arising from the processing, the data will be kept for a minimum period of five years.\n\n
+4.	RECIPIENTS.\n\n
+The data will not be communicated to any third party outside of Pokelitycs, except for a legal obligation or, in any case, upon prior request for consent from the User. Furthermore, Pokelitycs may grant access or transmit the personal data provided by the User to third-party service providers with whom it has entered into data processing agreements, and who will only access such information to provide a service on behalf of and on behalf of the Data Controller.\n\n
+5.	RETENTION OF DATA.\n\n
+Pokelitycs informs the User that, as a data hosting service provider and in accordance with the provisions of Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI), it retains for a maximum period of 12 months the information essential to identify the origin of the hosted data and the time when the service provision began.
+Retention of this data does not affect the confidentiality of communications and may only be used within the framework of a criminal investigation or for the safeguarding of public security, made available to judges and/or courts or the requesting Ministry. The communication of data to State Security Forces and Bodies will be carried out in accordance with the regulations on personal data protection, and with utmost respect for it.\n\n
+7.	PROTECTION OF HOSTED INFORMATION.\n\n
+The Data Controller adopts the necessary measures to guarantee the security, integrity and confidentiality of data in accordance with the provisions of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data. Although the Controller makes backups of the contents hosted on its servers, it is not responsible for the accidental loss or deletion of data by users. Similarly, it does not guarantee the complete replacement of deleted data by users, as such data may have been deleted and/or modified during the period of time since the last backup. The services provided or offered through the Application, except for specific backup services, do not include the replacement of contents stored in the backup copies made by the Data Controller when this loss is attributable to the user; in this case, a fee will be determined according to the complexity and volume of the recovery, always subject to user acceptance. The replacement of deleted data is only included in the service price when the loss of content is due to causes attributable to the Controller.\n\n
+8.	EXERCISE OF RIGHTS. \n\n
+Pokelytics informs the User that they have the rights of access, rectification, limitation, deletion, opposition, and portability, which they may exercise by sending a request to the email address: pokelytics.project@gmail.com or pokelyticsapp@gmail.com. Likewise, the User has the right to revoke the initially granted consent and to file claims for rights before the Spanish Data Protection Agency (AEPD).\n\n
+9.	COMMERCIAL COMMUNICATIONS BY ELECTRONIC MEANS.\n\n
+In compliance with the LSSI (Law on Information Society Services), Pokelitycs will not send advertising or promotional communications by email or other equivalent electronic means that have not previously been requested or expressly authorized by the recipients. In the case of users with whom there is a prior contractual, legal, or service relationship, the Data Controller is authorized to send commercial communications regarding products or services of the Controller that are similar to those that were initially contracted with the client. If the User wishes to unsubscribe from receiving such communications, they may do so by sending their request by email to the following email address: pokelytics.project@gmail.com.
+</string>
+    <string name="id_title">ID</string>
+    <string name="name_title">Name</string>
+    <string name="area_title">Areas</string>
+    <string name="no_pokemon_fav">"You don't have any favourite Pokemon, go to pokedex to get started"</string>
+    <string name="no_pokemon_team">"You don't have any Pokemon in your team, go to pokedex to get started"</string>
+    <string name="_001">#001</string>
+    <string name="bulbasaur">Bulbasaur</string>
+    <string name="plant">Plant</string>
+    <string name="poison">Poison</string>
+    <string name="overgrow">Overgrow</string>
+    <string name="hidden">Hidden</string>
+</resources>
