@@ -56,6 +56,7 @@
     <string name="vulnerable">Vulnerable at</string>
     <string name="loginTitle">Login</string>
     <string name="loginQuestion">Please login to add pokemon to favourites or team</string>
+    <string name="loginQuestion2">Please login to access settings</string>
 
 
 

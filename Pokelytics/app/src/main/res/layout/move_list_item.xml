@@ -17,9 +17,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toStartOf="@id/power"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:gravity="center">
+            android:gravity="center_vertical">
             <TextView
                 android:id="@+id/id"
                 android:layout_width="wrap_content"
@@ -37,21 +38,24 @@
                 android:textAllCaps="true"
                 android:textSize="17sp"
                 android:textColor="@color/colorOnItem"
-                android:layout_marginStart="25dp"/>
+                android:layout_marginStart="25dp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
 
         </LinearLayout>
 
         <TextView
             android:id="@+id/power"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="Damage"
             android:textSize="17sp"
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@color/colorOnItem"
             app:layout_constraintEnd_toStartOf="@id/image"
-            app:layout_constraintTop_toTopOf="@+id/name_id_container"/>
+            app:layout_constraintTop_toTopOf="@+id/name_id_container"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <ImageView
             android:id="@+id/image"
