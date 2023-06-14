@@ -138,9 +138,6 @@ class MainActivity : ActivityBase<ActivityMainBinding>() {
             settingsRecycler.adapter = NavAdapter(
                 onClick = { id ->
                     when (id) {
-                        "About" -> {
-                            //viewModel.navigateToAbout()
-                        }
                         "Settings" -> {
                             navController.navigate(R.id.userProfile)
                         }
@@ -155,7 +152,7 @@ class MainActivity : ActivityBase<ActivityMainBinding>() {
                 }
             ).apply {
                 items = mutableListOf(
-                    NavItem("About", "About"),
+                    //NavItem("About", "About"),
                     NavItem("Settings", "Settings"),
                     NavItem("Logout", "Logout")
                 )

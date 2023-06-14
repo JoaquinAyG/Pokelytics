@@ -21,7 +21,7 @@ class ProfileFragment : FragmentBase<FragmentProfileBinding>() {
     override fun getResourceLayout(): Int = R.layout.fragment_profile
 
     override fun initializeView() {
-        val nameUser = preferenceService.getPreference(KeyConstants.NAME_KEY)
+        val nameUser = (preferenceService.getPreference(KeyConstants.NAME_KEY) ?: resources.getString(R.string.welcomeUser)).ifEmpty { resources.getString(R.string.welcomeUser) }
         val photoUser = fAuth.currentUser?.photoUrl
         val emailUser = preferenceService.getPreference(KeyConstants.EMAIL_KEY)
 
